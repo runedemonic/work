@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
@@ -12,12 +12,12 @@ function App() {
   return (
     <Router>
       <div className="App">
-          <Navbar onLogout={handleLogout} />
-        <Switch>
-          <Route path="/signup" component={Signup} />
-            <Route path="/login" component={Login} />
+          <Navbar onLogout={handleLogout } />
+        <Routes>
+          <Route path="/signup" element ={<Signup />} />
+            <Route path="/login" element ={<Login />} />
           {/* 다른 라우트 추가 */}
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );
