@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3218acc0-ef64-4ec6-81ce-855b5ef7ce9c" name="변경" comment="Signup">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../payherefront/src/components/CreateLedgerEntry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../payherefront/src/components/EditLedgerEntry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../payherefront/src/components/LedgerEntriesList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../payherefront/src/components/LedgerEntryDetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../payherefront/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../payherefront/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../payherefront/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payherefront/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payherefront/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payherefront/src/components/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payherefront/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payherefront/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payherefront/src/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payherefront/src/components/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payherefront/src/components/axiosInstance.js" beforeDir="false" afterPath="$PROJECT_DIR$/../payherefront/src/components/axiosInstance.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/runed/Desktop/work/payherefront",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/runed/Desktop/work/payherefront&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="payhere" type="Python.DjangoServer" factoryName="Django server">
       <module name="payhere" />
@@ -78,7 +91,12 @@
       <updated>1680682432763</updated>
       <workItem from="1680682434914" duration="3105000" />
       <workItem from="1680700989607" duration="1599000" />
-      <workItem from="1680738620039" duration="5442000" />
+      <workItem from="1680738620039" duration="5675000" />
+      <workItem from="1680825267121" duration="13000" />
+      <workItem from="1680830357879" duration="471000" />
+      <workItem from="1681093177591" duration="6253000" />
+      <workItem from="1681174782682" duration="1809000" />
+      <workItem from="1681265687726" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="Signup">
       <created>1680685819287</created>

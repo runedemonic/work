@@ -18,10 +18,10 @@ const Login = () => {
 
       if (response.status === 200) {
         localStorage.setItem('token', response.data.access);
-        alert('Logged in successfully');
+        alert('로그인 성공');
       }
     } catch (error) {
-      setError('Invalid email or password');
+      setError('이메일 또는 비밀번호가 일치하지 않습니다');
     }
   };
 

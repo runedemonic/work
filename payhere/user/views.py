@@ -6,6 +6,8 @@ from django.contrib.auth.models import User
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from .models import LedgerEntry
+from .serializers import LedgerEntrySerializer
 
 
 class SignupView(APIView):
@@ -37,3 +39,48 @@ class ManagementDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Management.objects.all()
     serializer_class = ManagementSerializer
     permission_classes = [IsAuthenticated]
+
+
+class LedgerEntryCreateAPIView(generics.CreateAPIView):
+    queryset = LedgerEntry.objects.all()
+    serializer_class = LedgerEntrySerializer
+    permission_classes = (IsAuthenticated,)
+
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
+
+class LedgerEntryUpdateAPIView(generics.UpdateAPIView):
+    queryset = LedgerEntry.objects.all()
+    serializer_class = LedgerEntrySerializer
+    permission_classes = (IsAuthenticated,)
+
+    def get_queryset(self):
+        return self.queryset.filter(user=self.request.user)
+
+
+class LedgerEntryListAPIView(generics.ListAPIView):
+    queryset = LedgerEntry.objects.all()
+    serializer_class = LedgerEntrySerializer
+    permission_classes = (IsAuthenticated,)
+
+    def get_queryset(self):
+        return self.queryset.filter(user=self.request.user)
+
+
+class LedgerEntryDeleteAPIView(generics.DestroyAPIView):
+    queryset = LedgerEntry.objects.all()
+    serializer_class = LedgerEntrySerializer
+    permission_classes = (IsAuthenticated,)
+
+    def get_queryset(self):
+        return self.queryset.filter(user=self.request.user)
+
+
+class LedgerEntryDetailAPIView(generics.RetrieveAPIView):
+    queryset = LedgerEntry.objects.all()
+    serializer_class = LedgerEntrySerializer
+    permission_classes = (IsAuthenticated,)
+
+    def get_queryset(self):
+        return self.queryset.filter(user=self.request.user)

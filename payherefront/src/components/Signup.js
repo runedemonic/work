@@ -17,7 +17,7 @@ const Signup = () => {
       });
 
       if (response.status === 201) {
-        alert('User created successfully');
+        alert('회원가입 완료');
       }
     } catch (error) {
       setError('Username and password are required');
